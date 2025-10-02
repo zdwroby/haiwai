@@ -1,97 +1,93 @@
-FastAdmin是一款基于ThinkPHP+Bootstrap的极速后台开发框架。
+# kk_agent_backstage
 
 
-## 主要特性
 
-* 基于`Auth`验证的权限管理系统
-    * 支持无限级父子级权限继承，父级的管理员可任意增删改子级管理员及权限设置
-    * 支持单管理员多角色
-    * 支持管理子级数据或个人数据
-* 强大的一键生成功能
-    * 一键生成CRUD,包括控制器、模型、视图、JS、语言包、菜单、回收站等
-    * 一键压缩打包JS和CSS文件，一键CDN静态资源部署
-    * 一键生成控制器菜单和规则
-    * 一键生成API接口文档
-* 完善的前端功能组件开发
-    * 基于`AdminLTE`二次开发
-    * 基于`Bootstrap`开发，自适应手机、平板、PC
-    * 基于`RequireJS`进行JS模块管理，按需加载
-    * 基于`Less`进行样式开发
-* 强大的插件扩展功能，在线安装卸载升级插件
-* 通用的会员模块和API模块
-* 共用同一账号体系的Web端会员中心权限验证和API接口会员权限验证
-* 二级域名部署支持，同时域名支持绑定到应用插件
-* 多语言支持，服务端及客户端支持
-* 支持大文件分片上传、剪切板粘贴上传、拖拽上传，进度条显示，图片上传前压缩
-* 支持表格固定列、固定表头、跨页选择、Excel导出、模板渲染等功能
-* 强大的第三方应用模块支持([CMS](https://www.fastadmin.net/store/cms.html)、[博客](https://www.fastadmin.net/store/blog.html)、[知识付费问答](https://www.fastadmin.net/store/ask.html)、[在线投票系统](https://www.fastadmin.net/store/vote.html)、[B2C商城](https://www.fastadmin.net/store/shopro.html)、[B2B2C商城](https://www.fastadmin.net/store/wanlshop.html))
-* 支持CMS、博客、知识付费问答无缝整合[Xunsearch全文搜索](https://www.fastadmin.net/store/xunsearch.html)
-* 第三方小程序支持([CMS小程序](https://www.fastadmin.net/store/cms.html)、[预订小程序](https://www.fastadmin.net/store/ball.html)、[问答小程序](https://www.fastadmin.net/store/ask.html)、[点餐小程序](https://www.fastadmin.net/store/unidrink.html)、[B2C小程序](https://www.fastadmin.net/store/shopro.html)、[B2B2C小程序](https://www.fastadmin.net/store/wanlshop.html)、[博客小程序](https://www.fastadmin.net/store/blog.html))
-* 整合第三方短信接口(阿里云、腾讯云短信)
-* 无缝整合第三方云存储(七牛云、阿里云OSS、又拍云)功能，支持云储存分片上传
-* 第三方富文本编辑器支持(Summernote、Kindeditor、百度编辑器)
-* 第三方登录(QQ、微信、微博)整合
-* 第三方支付(微信、支付宝)无缝整合，微信支持PC端扫码支付
-* 丰富的插件应用市场
+## Getting started
 
-## 安装使用
+To make it easy for you to get started with GitLab, here's a list of recommended next steps.
 
-https://doc.fastadmin.net
+Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
 
-## 在线演示
+## Add your files
 
-https://demo.fastadmin.net
+- [ ] [Create](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-file) or [upload](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#upload-a-file) files
+- [ ] [Add files using the command line](https://docs.gitlab.com/topics/git/add_files/#add-files-to-a-git-repository) or push an existing Git repository with the following command:
 
-用户名：admin
+```
+cd existing_repo
+git remote add origin http://gitlab.example.com/php-dev/kk_agent_backstage.git
+git branch -M main
+git push -uf origin main
+```
 
-密　码：123456
+## Integrate with your tools
 
-提　示：演示站数据无法进行修改，请下载源码安装体验全部功能
+- [ ] [Set up project integrations](http://gitlab.example.com/php-dev/kk_agent_backstage/-/settings/integrations)
 
-## 界面截图
-![控制台](https://images.gitee.com/uploads/images/2020/0929/202947_8db2d281_10933.gif "控制台")
+## Collaborate with your team
 
-## 问题反馈
+- [ ] [Invite team members and collaborators](https://docs.gitlab.com/ee/user/project/members/)
+- [ ] [Create a new merge request](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html)
+- [ ] [Automatically close issues from merge requests](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#closing-issues-automatically)
+- [ ] [Enable merge request approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/)
+- [ ] [Set auto-merge](https://docs.gitlab.com/user/project/merge_requests/auto_merge/)
 
-在使用中有任何问题，请使用以下联系方式联系我们
+## Test and Deploy
 
-交流社区: https://ask.fastadmin.net
+Use the built-in continuous integration in GitLab.
 
-QQ 1 群（满）、QQ 2 群（满）、QQ 3 群（满）、QQ 4 群（满）、QQ 5 群（满）、QQ 6 群（满）、[QQ 7 群](https://www.fastadmin.net/goto/qun)。
+- [ ] [Get started with GitLab CI/CD](https://docs.gitlab.com/ee/ci/quick_start/)
+- [ ] [Analyze your code for known vulnerabilities with Static Application Security Testing (SAST)](https://docs.gitlab.com/ee/user/application_security/sast/)
+- [ ] [Deploy to Kubernetes, Amazon EC2, or Amazon ECS using Auto Deploy](https://docs.gitlab.com/ee/topics/autodevops/requirements.html)
+- [ ] [Use pull-based deployments for improved Kubernetes management](https://docs.gitlab.com/ee/user/clusters/agent/)
+- [ ] [Set up protected environments](https://docs.gitlab.com/ee/ci/environments/protected_environments.html)
 
-Github: https://github.com/karsonzhang/fastadmin
+***
 
-Gitee: https://gitee.com/karson/fastadmin
+# Editing this README
 
-## 特别鸣谢
+When you're ready to make this README your own, just edit this file and use the handy template below (or feel free to structure it however you want - this is just a starting point!). Thanks to [makeareadme.com](https://www.makeareadme.com/) for this template.
 
-感谢以下的项目,排名不分先后
+## Suggestions for a good README
 
-ThinkPHP：http://www.thinkphp.cn
+Every project is different, so consider which of these sections apply to yours. The sections used in the template are suggestions for most open source projects. Also keep in mind that while a README can be too long and detailed, too long is better than too short. If you think your README is too long, consider utilizing another form of documentation rather than cutting out information.
 
-AdminLTE：https://adminlte.io
+## Name
+Choose a self-explaining name for your project.
 
-Bootstrap：http://getbootstrap.com
+## Description
+Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.
 
-jQuery：http://jquery.com
+## Badges
+On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.
 
-Bootstrap-table：https://github.com/wenzhixin/bootstrap-table
+## Visuals
+Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
 
-Nice-validator: https://validator.niceue.com
+## Installation
+Within a particular ecosystem, there may be a common way of installing things, such as using Yarn, NuGet, or Homebrew. However, consider the possibility that whoever is reading your README is a novice and would like more guidance. Listing specific steps helps remove ambiguity and gets people to using your project as quickly as possible. If it only runs in a specific context like a particular programming language version or operating system or has dependencies that have to be installed manually, also add a Requirements subsection.
 
-SelectPage: https://github.com/TerryZ/SelectPage
+## Usage
+Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
 
-Layer: https://layuion.com/layer/
+## Support
+Tell people where they can go to for help. It can be any combination of an issue tracker, a chat room, an email address, etc.
 
-DropzoneJS: https://www.dropzonejs.com
+## Roadmap
+If you have ideas for releases in the future, it is a good idea to list them in the README.
 
+## Contributing
+State if you are open to contributions and what your requirements are for accepting them.
 
-## 版权信息
+For people who want to make changes to your project, it's helpful to have some documentation on how to get started. Perhaps there is a script that they should run or some environment variables that they need to set. Make these steps explicit. These instructions could also be useful to your future self.
 
-FastAdmin遵循Apache2开源协议发布，并提供免费使用。
+You can also document commands to lint the code or run tests. These steps help to ensure high code quality and reduce the likelihood that the changes inadvertently break something. Having instructions for running tests is especially helpful if it requires external setup, such as starting a Selenium server for testing in a browser.
 
-本项目包含的第三方源码和二进制文件之版权信息另行标注。
+## Authors and acknowledgment
+Show your appreciation to those who have contributed to the project.
 
-版权所有Copyright © 2017-2022 by FastAdmin (https://www.fastadmin.net)
+## License
+For open source projects, say how it is licensed.
 
-All rights reserved。
+## Project status
+If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.

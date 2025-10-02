@@ -1,0 +1,85 @@
+/* assets/style.css – ref-style + optimizations */
+:root{
+  --bg:#f6f7fb;
+  --card:#ffffff;
+  --text:#0f172a;
+  --muted:#8A9099;
+  --primary:#409EFF; /* theme color */
+  --sidebar:#1F222D;
+  --sidebar-2:#181B22;
+  --active-grad:linear-gradient(90deg, rgba(64,158,255,.22), rgba(64,158,255,.15));
+  --shadow:0 10px 26px rgba(16,24,40,.06);
+  --radius:14px;
+  --density:14px; /* row height font-size base */
+}
+
+/* Themes */
+body.theme-blue{--primary:#409EFF; --active-grad:linear-gradient(90deg, rgba(64,158,255,.22), rgba(64,158,255,.15));}
+body.theme-purple{--primary:#8B5CF6; --active-grad:linear-gradient(90deg, rgba(139,92,246,.22), rgba(139,92,246,.15));}
+body.theme-green{--primary:#10B981; --active-grad:linear-gradient(90deg, rgba(16,185,129,.22), rgba(16,185,129,.15));}
+body.theme-gray{--primary:#94A3B8; --active-grad:linear-gradient(90deg, rgba(148,163,184,.22), rgba(148,163,184,.15));}
+
+*{box-sizing:border-box}
+html,body,#app{height:100%}
+body{margin:0;background:var(--bg);color:var(--text);font:14px/1.5 -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial}
+
+/* Header */
+.el-header{height:60px !important;background:var(--card);box-shadow:var(--shadow);display:flex;align-items:center;justify-content:space-between;padding:0 12px 0 16px}
+.brand{display:flex;align-items:center;gap:10px;font-weight:800;letter-spacing:.2px}
+.head-right{display:flex;gap:12px;align-items:center;color:var(--muted)}
+.toggle{cursor:pointer;border-radius:8px;padding:6px 8px;display:flex;align-items:center;gap:6px;color:#334155}
+.toggle:hover{background:#f3f4f6}
+
+/* Sidebar */
+.sidebar{width:264px;background:var(--sidebar);color:#E6E8EC;display:flex;flex-direction:column}
+.sidebar.mini{width:72px}
+.el-menu.sidebar-menu{border-right:none;background:transparent}
+.el-menu-item, .el-submenu__title{height:48px;line-height:48px}
+.el-menu-item{color:#E6E8EC !important;padding-left:20px !important;margin:2px 8px;border-radius:8px}
+.el-menu-item.is-active{background:var(--active-grad);color:#fff !important}
+.el-submenu__title{color:#E6E8EC !important;padding:0 16px;margin:2px 8px;border-radius:8px}
+.el-submenu__title:hover{background:#232734}
+.el-menu--inline{background:var(--sidebar-2) !important;border-radius:8px;margin:0 8px 8px 8px;padding:6px 0}
+.el-menu--inline .el-menu-item{margin:0 8px;padding-left:32px !important}
+.sidebar i{margin-right:12px;font-size:18px;vertical-align:middle}
+.sidebar.mini .el-menu--collapse .el-submenu__title i{margin-right:0}
+.sidebar.mini .el-menu--collapse .el-menu-item{padding-left:20px !important}
+
+/* Content */
+.el-main{padding:20px}
+.section{margin-bottom:16px}
+.el-card{background:var(--card);border:none;border-radius:var(--radius);box-shadow:var(--shadow)}
+
+/* Page header */
+.page-header{display:flex;align-items:center;gap:10px;margin:2px 0 12px 0}
+.page-header .title{font-size:18px;font-weight:800}
+.page-header i{color:var(--primary)}
+
+/* Table/input density */
+.el-table{background:var(--card);border-radius:12px;overflow:hidden}
+.el-table th{background:#f3f4f7;color:#374151;font-weight:700}
+body.compact .el-table .cell, body.compact .el-table th>.cell{padding:6px 8px}
+body.compact .el-form-item{margin-bottom:10px}
+.el-input__inner{border-radius:8px}
+.el-button--primary{background:var(--primary);border-color:var(--primary)}
+
+/* assets/style.css */
+.login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f0f2f5;
+}
+.login-card {
+  width: 360px;
+}
+.mb20{
+  margin-bottom: 20px;
+}
+.pr20{
+  padding-right:20px;
+}
+.mb0{
+  margin-bottom: 0;
+}
