@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>图标/USDT_dis</title>
+    <defs>
+        <circle id="path-1" cx="10" cy="10" r="10"></circle>
+    </defs>
+    <g id="图标/USDT_dis" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g id="蒙版"></g>
+        <g id="编组" mask="url(#mask-2)" fill-rule="nonzero">
+            <path d="M0,10 C0,15.5228475 4.4771525,20 10,20 C15.5228475,20 20,15.5228475 20,10 C20,4.4771525 15.5228475,0 10,0 C4.4771525,0 0,4.4771525 0,10 Z" id="路径" fill="#666666"></path>
+            <polygon id="路径" fill="#FFFFFF" points="14.693 5.043 5.224 5.043 5.224 7.328 8.816 7.328 8.816 10.689 11.102 10.689 11.102 7.328 14.693 7.328 14.693 5.043"></polygon>
+            <path d="M16.021,10.171 C16.021,9.423 13.321,8.817 9.98,8.817 C6.639,8.817 3.94,9.423 3.94,10.171 C3.94,10.83 6.04,11.379 8.816,11.5 L8.816,16.324 L11.1,16.324 L11.1,11.5 C13.9,11.384 16.021,10.833 16.021,10.171 Z M9.98,11.047 C7.009,11.047 4.6,10.576 4.6,10 C4.6,9.424 7.008,8.95 9.979,8.95 C12.95,8.95 15.359,9.42 15.359,10 C15.359,10.58 12.951,11.047 9.98,11.047 Z" id="形状" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>

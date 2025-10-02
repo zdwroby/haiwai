@@ -1,5 +1,7 @@
 
 .git
 .idea
+.htaccess
+nginx.htaccess
 /H5-agent/.htaccess
 /H5-agent/nginx.htaccess
